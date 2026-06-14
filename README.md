@@ -24,9 +24,6 @@ End-to-end analytics on the Polish top flight 2025/26 season. Multi-source scrap
 
 The main artifact. Five pages plus a rich home overview. Reads directly from `data/processed/`.
 
-**streamlit_home_overview.png**
-
-**streamlit_home_clusters_records.png**
 
 | Page | What it shows |
 |---|---|
@@ -37,13 +34,56 @@ The main artifact. Five pages plus a rich home overview. Reads directly from `da
 | **Player Compare** | Two modes (Outfield / GK). Side-by-side pizzas, shot maps and per-90 stat comparison. |
 | **Scouting Tool** | Cosine similarity on the per-90 vector. Filter by MV cap, age window and same-team exclusion. Returns role-matched candidates only. |
 
-**streamlit_club_profile.png**
+### Home / League overview
 
-**streamlit_player_explorer.png**
+The whole league in one scroll - standings, scatter, bump chart, archetypes and records, all on a single page.
 
-**streamlit_player_compare.png**
+<img width="1498" height="695" alt="obraz" src="https://github.com/user-attachments/assets/c60ca05b-0e4b-4f6c-a503-6faf81f433a6" />
 
-**streamlit_scouting_tool.png**
+<img width="1496" height="652" alt="obraz" src="https://github.com/user-attachments/assets/3663f75b-e239-442e-b989-1da6dce3d873" />
+
+<img width="1522" height="681" alt="obraz" src="https://github.com/user-attachments/assets/975b1d39-1c4e-473e-ae88-0bea613ca4f4" />
+
+### Club Profile
+
+Single-club deep dive. Useful for opponent prep or a season post-mortem on any of the 18 sides.
+
+<img width="1651" height="763" alt="obraz" src="https://github.com/user-attachments/assets/ec02b80b-5d9e-4f11-9285-0a7d14e5e454" />
+
+<img width="1460" height="604" alt="obraz" src="https://github.com/user-attachments/assets/2811992f-3a33-4cee-9e85-058ac404c420" />
+
+<img width="1523" height="249" alt="obraz" src="https://github.com/user-attachments/assets/be954f3a-0d49-42eb-977d-b4b0a592249c" />
+
+### Head-to-Head
+
+Compare any two clubs. Direct meetings, style overlap and where the trajectories pulled apart.
+
+<img width="1585" height="733" alt="obraz" src="https://github.com/user-attachments/assets/909fec9e-b443-4cf3-91cf-78bfb69e9e82" />
+
+<img width="1512" height="873" alt="obraz" src="https://github.com/user-attachments/assets/ed7d261b-a80b-4d31-b2d6-ad038bf9d460" />
+
+
+
+### Player Explorer
+
+Search the whole league by filters, drill into a single player profile.
+
+<img width="1452" height="882" alt="obraz" src="https://github.com/user-attachments/assets/d7dcb785-a818-410e-8853-f12381bc44c7" />
+
+
+### Player Compare
+
+Pick any two players. Outfield or GK mode. Side-by-side pizzas, shot maps and per-90 stats.
+
+<img width="1481" height="871" alt="obraz" src="https://github.com/user-attachments/assets/809f3511-3137-4122-b741-1282e217a290" />
+
+
+### Scouting Tool
+
+Cosine similarity on the per-90 vector. Pick a target, set filters, get role-matched candidates only - pick a defender, get defenders.
+
+<img width="1523" height="819" alt="obraz" src="https://github.com/user-attachments/assets/ba8bb1ef-e11c-4a72-9f2c-85b300af9a4e" />
+
 
 ### Run locally
 
@@ -63,7 +103,8 @@ Three Jupyter notebooks. Each has a companion sub-README with the full chart gal
 
 Comparative analysis of Lech, Jaga and Legia on FBref counting stats. Season trajectory, form, splits, head-to-head, key players, goalkeeper rotation story. **Limited scope** - this notebook predates the Sofascore scrape and runs on counting stats only. Notebooks 02 and 03 are the xG-enabled versions.
 
-**notebook_01_hero.png**
+<img width="1174" height="550" alt="obraz" src="https://github.com/user-attachments/assets/d0129f03-bc62-4913-bbbf-e64ff4d94c70" />
+
 
 ### 02 - Team Analytics
 
@@ -72,7 +113,8 @@ Comparative analysis of Lech, Jaga and Legia on FBref counting stats. Season tra
 
 League-wide xG analytics on Sofascore data. KMeans archetypes, tactical radar, Poisson xPts, decomposition into finishing and defending, goal sources, shot maps, rolling form, bump charts.
 
-**notebook_02_hero.png**
+<img width="1746" height="790" alt="obraz" src="https://github.com/user-attachments/assets/ffc6e3c2-414e-40e3-948b-193f795f62ed" />
+
 
 ### 03 - Player Analytics
 
@@ -81,7 +123,9 @@ League-wide xG analytics on Sofascore data. KMeans archetypes, tactical radar, P
 
 Per-player demographics, percentile pizzas, shot maps and statistical similarity.
 
-**notebook_03_hero.png**
+<img width="1749" height="1301" alt="obraz" src="https://github.com/user-attachments/assets/cebcb65e-f751-4f94-bddc-58ff53afb92b" />
+
+<img width="2189" height="1194" alt="obraz" src="https://github.com/user-attachments/assets/14b4ebaa-d3ce-48df-b433-e96f55b3be1b" />
 
 ## Power BI dashboard
 
@@ -89,15 +133,17 @@ Executive-friendly view of the same data layer. Three pages, drag-and-drop inter
 
 **1. League overview** - xPts standings table + Pts vs xPts horizontal bar chart with red-green gradient on the gap.
 
-**powerbi_overview.png**
+<img width="1311" height="735" alt="obraz" src="https://github.com/user-attachments/assets/54a50f2e-1902-491e-bf96-7ef1887674e7" />
 
 **2. Player over and under-performance** - Top 20 strikers ranked by Goals minus xG (finishing skill) + Top 10 goalkeepers ranked by goals prevented (shot-stopping skill).
 
-**powerbi_player_overunder.png**
+<img width="1309" height="736" alt="obraz" src="https://github.com/user-attachments/assets/8f989862-326b-40e2-b3e9-dacb483f234e" />
+
 
 **3. Player Explorer** - Sortable per-player table with slicers (role, team, age range, minutes range). Recruiters can drill down to any subset in seconds.
 
-**powerbi_player_explorer.png**
+<img width="1229" height="729" alt="obraz" src="https://github.com/user-attachments/assets/fcbcb23e-d03c-49bd-b57c-affc7bdc703d" />
+
 
 Source: `data/processed/powerbi/` CSVs, pre-computed by `scripts/12_export_powerbi.py` (Poisson xPts and H2H tie-break done in pandas so Power BI only renders).
 
