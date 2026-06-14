@@ -1,0 +1,34 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Playing Time,Starts,Starts,Starts,Subs,Subs,Subs,Team Success,Team Success,Team Success,Team Success,Team Success,Team Success,Unnamed: 21_level_0
+Player,Nation,Pos,Age,MP,Min,Mn/MP,Min%,90s,Starts,Mn/Start,Compl,Subs,Mn/Sub,unSub,PPM,onG,onGA,+/-,+/-90,On-Off,Matches
+Maciej Ambrosiewicz,pl POL,MF,27.0,33,2755.0,83.0,90.0,30.6,32,85.0,21,1,28.0,0,1.0,38.0,61.0,-23.0,-0.75,-1.05,Matches
+Damian Hilbrycht,pl POL,MF,27.0,33,2345.0,71.0,76.6,26.1,28,80.0,10,5,22.0,0,1.03,34.0,53.0,-19.0,-0.73,-0.35,Matches
+Gabriel Isik,de GER,DF,26.0,29,2456.0,85.0,80.3,27.3,26,90.0,26,3,39.0,4,1.03,32.0,54.0,-22.0,-0.81,-0.81,Matches
+Arkadiusz Kasparkiewicz,pl POL,DF,30.0,29,2278.0,79.0,74.4,25.3,26,85.0,21,3,26.0,2,1.1,36.0,46.0,-10.0,-0.4,0.99,Matches
+Adrián Chovan,sk SVK,GK,29.0,22,1980.0,90.0,64.7,22.0,22,90.0,22,0,,12,1.14,27.0,41.0,-14.0,-0.64,0.03,Matches
+Krzysztof Kubica,pl POL,"MF,FW",25.0,25,1852.0,74.0,60.5,20.6,22,80.0,14,3,28.0,1,0.88,24.0,31.0,-7.0,-0.34,0.78,Matches
+Morgan Faßbender,de GER,"FW,MF",26.0,29,1710.0,59.0,55.9,19.0,22,68.0,3,7,30.0,2,0.76,22.0,38.0,-16.0,-0.84,-0.44,Matches
+Kamil Zapolnik,pl POL,FW,32.0,26,1769.0,68.0,57.8,19.7,20,79.0,9,6,33.0,1,1.12,26.0,28.0,-2.0,-0.1,1.29,Matches
+Bartosz Kopacz,pl POL,DF,33.0,19,1710.0,90.0,55.9,19.0,19,90.0,19,0,,3,1.0,22.0,28.0,-6.0,-0.32,0.75,Matches
+Jesús Jiménez,es ESP,"FW,MF",31.0,31,1686.0,54.0,55.1,18.7,19,71.0,3,12,27.0,0,0.97,26.0,40.0,-14.0,-0.75,-0.22,Matches
+Mini,es ESP,MF,26.0,28,1595.0,57.0,52.1,17.7,18,73.0,6,10,28.0,2,0.93,22.0,39.0,-17.0,-0.96,-0.65,Matches
+Maciej Wolski,pl POL,"MF,DF",28.0,19,1567.0,82.0,51.2,17.4,18,86.0,13,1,17.0,5,1.37,24.0,27.0,-3.0,-0.17,0.97,Matches
+Radu Boboc,ro ROU,MF,26.0,27,1621.0,60.0,53.0,18.0,17,80.0,6,10,26.0,2,0.93,24.0,33.0,-9.0,-0.5,0.31,Matches
+Igor Strzałek,pl POL,"FW,MF",21.0,28,1290.0,46.0,42.2,14.3,15,63.0,0,13,26.0,3,1.0,16.0,33.0,-17.0,-1.19,-0.93,Matches
+Lucas Masoero,ar ARG,DF,30.0,19,1275.0,67.0,41.7,14.2,13,84.0,10,6,31.0,14,1.11,23.0,30.0,-7.0,-0.49,0.26,Matches
+Artem Putivtsev,ua UKR,DF,36.0,18,1088.0,60.0,35.6,12.1,12,78.0,6,6,25.0,13,0.61,13.0,28.0,-15.0,-1.24,-0.92,Matches
+Miłosz Mleczko,pl POL,GK,26.0,12,1080.0,90.0,35.3,12.0,12,90.0,12,0,,20,0.75,16.0,24.0,-8.0,-0.67,-0.03,Matches
+Miłosz Matysik,pl POL,DF,21.0,11,637.0,58.0,20.8,7.1,9,70.0,5,2,4.0,4,0.91,6.0,15.0,-9.0,-1.27,-0.79,Matches
+Rafał Kurzawa,pl POL,"FW,MF",32.0,24,1074.0,45.0,35.1,11.9,8,74.0,3,16,30.0,2,1.04,13.0,20.0,-7.0,-0.59,0.09,Matches
+Andrzej Trubeha,pl POL,FW,27.0,21,783.0,37.0,25.6,8.7,7,59.0,0,14,26.0,7,0.9,12.0,19.0,-7.0,-0.8,-0.21,Matches
+Ivan Durdov,hr CRO,FW,25.0,16,523.0,33.0,17.1,5.8,6,57.0,1,10,18.0,0,0.94,6.0,14.0,-8.0,-1.38,-0.88,Matches
+Wojciech Jakubik,pl POL,"MF,FW",20.0,23,341.0,15.0,11.1,3.8,2,45.0,0,21,12.0,10,1.04,6.0,6.0,0.0,0.0,0.73,Matches
+Dominik Biniek,pl POL,MF,20.0,10,184.0,18.0,6.0,2.0,1,52.0,0,9,15.0,18,1.0,3.0,5.0,-2.0,-0.98,-0.35,Matches
+Diego Deisadze,ge GEO,MF,20.0,3,23.0,8.0,0.8,0.3,0,,0,3,8.0,11,0.33,1.0,0.0,1.0,3.91,4.59,Matches
+Thiago Dombroski,br BRA,DF,23.0,1,2.0,2.0,0.1,0.0,0,,0,1,2.0,6,0.0,0.0,0.0,0.0,0.0,0.65,Matches
+Maciej Janicki,pl POL,GK,17.0,0,,,,,0,,0,0,,3,,,,,,,Matches
+Milosz Kozik,pl POL,DF,20.0,0,,,,,0,,0,0,,3,,,,,,,Matches
+Noah Mrosek,de GER,DF,21.0,0,,,,,0,,0,0,,1,,,,,,,Matches
+Kacper Surowiec,pl POL,MF,16.0,0,,,,,0,,0,0,,3,,,,,,,Matches
+Paweł Surowiec,pl POL,MF,16.0,0,,,,,0,,0,0,,3,,,,,,,Matches
+Squad Total,,,28.3,34,3060.0,90.0,100.0,34.0,374,80.0,210,162,24.0,155,1.0,43.0,65.0,-22.0,-0.65,,
+Opponent Total,,,26.8,34,3060.0,90.0,100.0,34.0,374,80.0,216,155,21.0,209,1.79,65.0,43.0,22.0,0.65,,

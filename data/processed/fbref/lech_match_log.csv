@@ -1,0 +1,52 @@
+Date,Time,Comp,Round,Day,Venue,Result,GF,GA,Opponent,Poss,Attendance,Captain,Formation,Opp Formation,Referee,Match Report,Notes
+2025-07-18,20:30,Ekstraklasa,Matchweek 1,Fri,Home,L,1,4,Cracovia,75,29123,Mikael Ishak,5-4-1,5-4-1,Damian Sylwestrzak,Match Report,
+2025-07-22,20:30,Champions Lg,Second qualifying round,Tue,Home,W,7,1,is Breiðablik,50,24859,Mikael Ishak,4-2-3-1,4-3-1-2,Jasper Vergoote,Match Report,Leg 1 of 2
+2025-07-26,20:15,Ekstraklasa,Matchweek 2,Sat,Away,W,4,3,Lechia Gdańsk,60,18631,Mikael Ishak,4-4-2,4-2-3-1,Bartosz Frankowski,Match Report,
+2025-07-30,18:30 (20:30),Champions Lg,Second qualifying round,Wed,Away,W,1,0,is Breiðablik,,1471,Mikael Ishak,4-2-3-1,4-3-3,Adam Ladebäck,Match Report,Leg 2 of 2; Lech Poznań won
+2025-08-02,20:15,Ekstraklasa,Matchweek 3,Sat,Home,W,2,1,Górnik Zabrze,55,31223,Mikael Ishak,4-4-1-1,3-4-3,Szymon Marciniak,Match Report,
+2025-08-06,20:30,Champions Lg,Third qualifying round,Wed,Home,L,1,3,rs Red Star,55,39743,Mikael Ishak,4-2-3-1,4-2-3-1,Tobias Stieler,Match Report,Leg 1 of 2
+2025-08-12,21:00,Champions Lg,Third qualifying round,Tue,Away,D,1,1,rs Red Star,,45371,Mikael Ishak,4-2-3-1,4-2-3-1,François Letexier,Match Report,Leg 2 of 2; Red Star won
+2025-08-16,20:15,Ekstraklasa,Matchweek 5,Sat,Home,D,1,1,Korona Kielce,65,24303,Mikael Ishak,4-4-2,3-4-3,Piotr Lasyk,Match Report,
+2025-08-21,20:30,Europa Lg,Play-off round,Thu,Home,L,1,5,be Genk,51,25443,Mikael Ishak,4-2-3-1,4-2-3-1,Donatas Rumšas,Match Report,Leg 1 of 2
+2025-08-28,20:00,Europa Lg,Play-off round,Thu,Away,W,2,1,be Genk,,12913,Antoni Kozubal,4-2-3-1,4-4-2,Davide Massa,Match Report,Leg 2 of 2; Genk won
+2025-08-31,17:30,Ekstraklasa,Matchweek 7,Sun,Home,W,2,1,Widzew Łódź,51,32877,Antoni Kozubal,4-4-2,4-3-3,Patryk Gryckiewicz,Match Report,
+2025-09-12,20:30,Ekstraklasa,Matchweek 8,Fri,Home,L,1,2,Zagłębie Lubin,64,24618,Antonio Milić,4-4-2,5-4-1,Damian Kos,Match Report,
+2025-09-20,17:30,Ekstraklasa,Matchweek 9,Sat,Away,W,2,0,Nieciecza,46,4595,Mikael Ishak,4-2-3-1,3-4-3,Tomasz Kwiatkowski,Match Report,
+2025-09-24,18:45,Ekstraklasa,Matchweek 6,Wed,Away,D,2,2,Raków,36,5326,João Moutinho,4-4-2,3-4-3,Szymon Marciniak,Match Report,
+2025-09-28,14:45,Ekstraklasa,Matchweek 10,Sun,Home,D,2,2,Jagiellonia,53,35299,Antonio Milić,4-4-2,4-4-2,Bartosz Frankowski,Match Report,
+2025-10-02,18:45,Conf Lg,League phase,Thu,Home,W,4,1,at Rapid Wien,52,24779,Mikael Ishak,4-2-3-1,4-2-3-1,Rob Hennessy,Match Report,
+2025-10-05,17:30,Ekstraklasa,Matchweek 11,Sun,Away,W,1,0,Katowice,57,12971,Mikael Ishak,4-4-1-1,3-4-3,Karol Arys,Match Report,
+2025-10-19,14:45,Ekstraklasa,Matchweek 12,Sun,Home,D,2,2,Pogoń Szczecin,66,39496,Mikael Ishak,4-4-2,4-2-2-2,Wojciech Myć,Match Report,
+2025-10-23,21:00,Conf Lg,League phase,Thu,Away,L,1,2,gi Lincoln Red Imps FC,62,1208,Bartosz Mrozek,4-2-3-1,4-4-2,Chrysovalantis Theouli,Match Report,
+2025-10-26,20:15,Ekstraklasa,Matchweek 13,Sun,Away,D,0,0,Legia Warsaw,52,26498,Mikael Ishak,4-4-2,4-3-3,Piotr Lasyk,Match Report,
+2025-11-02,14:45,Ekstraklasa,Matchweek 14,Sun,Home,D,2,2,Motor Lublin,60,22692,Mikael Ishak,4-4-2,4-3-3,Sebastian Krasny,Match Report,
+2025-11-06,21:00,Conf Lg,League phase,Thu,Away,L,2,3,es Rayo Vallecano,35,10029,Mikael Ishak,4-2-3-1,4-3-3,Viktor Kopievskii,Match Report,
+2025-11-09,20:15,Ekstraklasa,Matchweek 15,Sun,Away,L,1,3,Arka Gdynia,56,14064,Antonio Milić,4-4-2,3-4-3,Patryk Gryckiewicz,Match Report,
+2025-11-23,14:45,Ekstraklasa,Matchweek 16,Sun,Home,W,4,1,Radomiak Radom,53,33877,Filip Jagiełło,4-4-2,4-3-3,Piotr Lasyk,Match Report,
+2025-11-27,18:45,Conf Lg,League phase,Thu,Home,W,2,0,ch Lausanne-Sport,55,19728,Mikael Ishak,4-2-3-1,4-3-1-2,Sigurd Smehus Kringstad,Match Report,
+2025-11-30,20:15,Ekstraklasa,Matchweek 17,Sun,Away,D,0,0,Wisła Płock,69,11249,Antonio Milić,4-4-2,3-5-2,Wojciech Myć,Match Report,
+2025-12-07,14:45,Ekstraklasa,Matchweek 18,Sun,Away,D,2,2,Cracovia,38,14102,Mikael Ishak,4-3-3,3-4-3,Damian Sylwestrzak,Match Report,
+2025-12-11,21:00,Conf Lg,League phase,Thu,Home,D,1,1,de Mainz 05,68,28139,Mikael Ishak,4-2-3-1,5-3-2,Andrei Chivulete,Match Report,
+2025-12-18,21:00,Conf Lg,League phase,Thu,Away,W,2,1,cz Sigma Olomouc,59,6267,Mikael Ishak,4-4-2,4-3-3,Patrik Kolarić,Match Report,
+2026-01-31,20:15,Ekstraklasa,Matchweek 19,Sat,Home,L,1,3,Lechia Gdańsk,72,17827,Mikael Ishak,4-4-2,4-2-3-1,Karol Arys,Match Report,
+Date,Time,Comp,Round,Day,Venue,Result,GF,GA,Opponent,Poss,Attendance,Captain,Formation,Opp Formation,Referee,Match Report,Notes
+2026-02-03,20:30,Ekstraklasa,Matchweek 4,Tue,Away,L,0,1,Piast Gliwice,53,3118,Mikael Ishak,4-4-2,4-4-2,Jarosław Przybył,Match Report,
+2026-02-07,20:15,Ekstraklasa,Matchweek 20,Sat,Away,W,1,0,Górnik Zabrze,48,21780,Mikael Ishak,4-4-2,4-3-3,Damian Sylwestrzak,Match Report,
+2026-02-15,17:30,Ekstraklasa,Matchweek 21,Sun,Home,W,3,0,Piast Gliwice,49,14638,Antonio Milić,4-2-3-1,4-3-3,Wojciech Myć,Match Report,
+2026-02-19,19:45 (18:45),Conf Lg,Knockout phase play-offs,Thu,Away,W,2,0,fi KuPS,60,3756,Mikael Ishak,4-2-3-1,4-2-3-1,Əliyar Ağayev,Match Report,Leg 1 of 2
+2026-02-22,17:30,Ekstraklasa,Matchweek 22,Sun,Away,W,2,1,Korona Kielce,58,12181,Bartosz Mrozek,4-4-2,5-4-1,Piotr Lasyk,Match Report,
+2026-02-26,21:00,Conf Lg,Knockout phase play-offs,Thu,Home,W,1,0,fi KuPS,57,15172,Mikael Ishak,4-2-3-1,4-3-3,Vassilis Fotias,Match Report,Leg 2 of 2; Lech Poznań won
+2026-03-01,17:30,Ekstraklasa,Matchweek 23,Sun,Home,W,4,3,Raków,54,26824,Mikael Ishak,4-4-2,3-4-3,Bartosz Frankowski,Match Report,
+2026-03-07,20:15,Ekstraklasa,Matchweek 24,Sat,Away,L,1,2,Widzew Łódź,72,16468,Mateusz Skrzypczak,4-4-2,3-4-3,Szymon Marciniak,Match Report,
+2026-03-12,18:45,Conf Lg,Round of 16,Thu,Home,L,1,3,ua Shakhtar Donetsk,44,36290,Mikael Ishak,4-2-3-1,4-3-3,Rohit Saggi,Match Report,Leg 1 of 2
+2026-03-15,14:45,Ekstraklasa,Matchweek 25,Sun,Away,W,1,0,Zagłębie Lubin,63,16033,Mikael Ishak,4-4-2,3-4-3,Daniel Stefański,Match Report,
+2026-03-19,21:00,Conf Lg,Round of 16,Thu,Away,W,2,1,ua Shakhtar Donetsk,45,17754,Mikael Ishak,4-2-3-1,4-1-4-1,Sander van der Eijk,Match Report,Leg 2 of 2; Shakhtar Donetsk won
+2026-03-22,14:45,Ekstraklasa,Matchweek 26,Sun,Home,W,4,1,Nieciecza,68,36239,Mikael Ishak,4-2-3-1,3-4-1-2,Patryk Gryckiewicz,Match Report,
+2026-04-04,20:15,Ekstraklasa,Matchweek 27,Sat,Away,D,0,0,Jagiellonia,51,19789,Mikael Ishak,4-4-2,4-1-3-2,Jarosław Przybył,Match Report,
+2026-04-12,17:30,Ekstraklasa,Matchweek 28,Sun,Home,D,3,3,Katowice,62,35143,Mikael Ishak,4-4-2,3-4-3,Damian Sylwestrzak,Match Report,
+2026-04-18,20:15,Ekstraklasa,Matchweek 29,Sat,Away,W,2,1,Pogoń Szczecin,44,20991,Mikael Ishak,4-4-2,4-4-2,Patryk Gryckiewicz,Match Report,
+2026-04-26,17:30,Ekstraklasa,Matchweek 30,Sun,Home,W,4,0,Legia Warsaw,67,40810,Bartosz Mrozek,4-2-3-1,5-3-2,Piotr Lasyk,Match Report,
+2026-05-02,20:15,Ekstraklasa,Matchweek 31,Sat,Away,W,1,0,Motor Lublin,48,15200,Mikael Ishak,4-2-2-2,4-1-4-1,Karol Arys,Match Report,
+2026-05-08,20:30,Ekstraklasa,Matchweek 32,Fri,Home,D,1,1,Arka Gdynia,81,41598,Mikael Ishak,4-2-3-1,3-4-3,Bartosz Frankowski,Match Report,
+2026-05-16,20:15,Ekstraklasa,Matchweek 33,Sat,Away,W,3,1,Radomiak Radom,45,13982,Mikael Ishak,4-4-2,4-1-4-1,Karol Arys,Match Report,
+2026-05-23,17:30,Ekstraklasa,Matchweek 34,Sat,Home,D,2,2,Wisła Płock,68,41529,Mikael Ishak,4-2-3-1,3-5-2,Marcin Szczerbowicz,Match Report,

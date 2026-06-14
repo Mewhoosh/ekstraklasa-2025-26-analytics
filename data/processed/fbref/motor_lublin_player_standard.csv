@@ -1,0 +1,33 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Unnamed: 21_level_0
+Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,Gls,Ast,G+A,G-PK,G+A-PK,Matches
+Bartosz Wolski,pl POL,MF,28.0,34,34,2855.0,31.7,6.0,6.0,12.0,6.0,0.0,1.0,2.0,0.0,0.19,0.19,0.38,0.19,0.38,Matches
+Karol Czubak,pl POL,FW,25.0,32,31,2542.0,28.2,18.0,3.0,21.0,15.0,3.0,3.0,3.0,1.0,0.64,0.11,0.74,0.53,0.64,Matches
+Filip Luberecki,pl POL,DF,20.0,31,29,2615.0,29.1,0.0,1.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,0.03,0.03,0.0,0.03,Matches
+Ivo Rodrigues,pt POR,MF,30.0,31,29,2442.0,27.1,2.0,4.0,6.0,2.0,0.0,0.0,8.0,0.0,0.07,0.15,0.22,0.07,0.22,Matches
+Ivan Brkić,hr CRO,GK,30.0,27,27,2362.0,26.2,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Paweł Stolarski,pl POL,DF,29.0,29,25,1901.0,21.1,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Hervé Matthys,be BEL,DF,29.0,26,24,2154.0,23.9,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Marek Bartoš,sk SVK,DF,28.0,25,23,2070.0,23.0,1.0,1.0,2.0,1.0,0.0,0.0,5.0,0.0,0.04,0.04,0.09,0.04,0.09,Matches
+Sergi Samper,es ESP,MF,30.0,30,20,1791.0,19.9,0.0,2.0,2.0,0.0,0.0,0.0,5.0,0.0,0.0,0.1,0.1,0.0,0.1,Matches
+Mbaye Jacques Ndiaye,sn SEN,"MF,FW",21.0,24,19,1626.0,18.1,8.0,2.0,10.0,8.0,0.0,0.0,7.0,0.0,0.44,0.11,0.55,0.44,0.55,Matches
+Fábio Conceição,pt POR,"MF,FW",24.0,27,19,1537.0,17.1,4.0,3.0,7.0,4.0,0.0,0.0,2.0,0.0,0.23,0.18,0.41,0.23,0.41,Matches
+Michał Król,pl POL,"MF,FW",25.0,26,18,1491.0,16.6,1.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.06,0.12,0.18,0.06,0.18,Matches
+Jakub Łabojko,pl POL,MF,27.0,29,14,1272.0,14.1,1.0,0.0,1.0,1.0,0.0,0.0,7.0,1.0,0.07,0.0,0.07,0.07,0.07,Matches
+Arkadiusz Najemski,pl POL,DF,29.0,17,13,1208.0,13.4,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Bradly van Hoeven,nl NED,"MF,FW",25.0,28,12,1165.0,12.9,0.0,4.0,4.0,0.0,0.0,0.0,1.0,0.0,0.0,0.31,0.31,0.0,0.31,Matches
+Filip Wójcik,pl POL,DF,28.0,24,8,1054.0,11.7,0.0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.09,0.09,0.0,0.09,Matches
+Gašper Tratnik,si SVN,GK,25.0,8,7,698.0,7.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Bright Ede,pl POL,DF,18.0,11,7,600.0,6.7,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Mathieu Scalet,fr FRA,MF,28.0,20,4,612.0,6.8,2.0,0.0,2.0,2.0,0.0,0.0,2.0,0.0,0.29,0.0,0.29,0.29,0.29,Matches
+Krystian Palacz,pl POL,DF,22.0,6,4,313.0,3.5,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.29,0.29,0.0,0.29,Matches
+Renat Dadaşov,az AZE,FW,26.0,21,2,468.0,5.2,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Paskal Meyer,de GER,DF,20.0,5,2,220.0,2.4,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Kacper Karasek,pl POL,MF,23.0,14,1,224.0,2.5,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.4,0.0,0.4,0.4,0.4,Matches
+Thomas Santos,dk DEN,DF,26.0,7,1,222.0,2.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Christopher Simon,sn SEN,FW,25.0,1,1,45.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Florian Haxha,xk KVX,MF,23.0,7,0,102.0,1.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Franciszek Lewandowsk,pl POL,MF,17.0,2,0,13.0,0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Krystian Brzozowski,pl POL,DF,16.0,0,0,,,,,,,,,,,,,,,,Matches
+Patryk Kukulski,pl POL,GK,21.0,0,0,,,,,,,,,,,,,,,,Matches
+Squad Total,,,26.9,34,374,3060.0,34.0,44.0,30.0,74.0,41.0,3.0,4.0,76.0,3.0,1.29,0.88,2.18,1.21,2.09,
+Opponent Total,,,26.7,34,374,3060.0,34.0,52.0,33.0,85.0,47.0,5.0,6.0,83.0,2.0,1.53,0.97,2.5,1.38,2.35,

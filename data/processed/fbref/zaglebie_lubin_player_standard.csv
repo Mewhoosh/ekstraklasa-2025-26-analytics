@@ -1,0 +1,42 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Unnamed: 21_level_0
+Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,Gls,Ast,G+A,G-PK,G+A-PK,Matches
+Michał Nalepa,pl POL,DF,32.0,31,30,2660.0,29.6,2.0,1.0,3.0,2.0,0.0,0.0,8.0,1.0,0.07,0.03,0.1,0.07,0.1,Matches
+Filip Kocaba,pl POL,"MF,DF",20.0,31,30,2533.0,28.1,2.0,1.0,3.0,2.0,0.0,0.0,5.0,0.0,0.07,0.04,0.11,0.07,0.11,Matches
+Marcel Reguła,pl POL,"MF,FW",18.0,31,28,2139.0,23.8,5.0,3.0,8.0,5.0,0.0,1.0,7.0,1.0,0.21,0.13,0.34,0.21,0.34,Matches
+Jasmin Burić,ba BIH,GK,38.0,24,23,2084.0,23.2,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Damian Dąbrowski,pl POL,MF,32.0,25,22,1894.0,21.0,0.0,3.0,3.0,0.0,0.0,0.0,2.0,0.0,0.0,0.14,0.14,0.0,0.14,Matches
+Josip Ćorluka,ba BIH,"DF,MF",30.0,25,21,1796.0,20.0,1.0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,0.05,0.05,0.1,0.05,0.1,Matches
+Damian Michalski,pl POL,DF,27.0,23,20,1829.0,20.3,1.0,0.0,1.0,1.0,0.0,0.0,3.0,0.0,0.05,0.0,0.05,0.05,0.05,Matches
+Roman Yakuba,ua UKR,DF,24.0,22,19,1684.0,18.7,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Adam Radwański,pl POL,MF,27.0,31,19,1619.0,18.0,4.0,6.0,10.0,3.0,1.0,1.0,6.0,0.0,0.22,0.33,0.56,0.17,0.5,Matches
+Luka Lučić,hr CRO,"DF,MF",30.0,24,17,1591.0,17.7,0.0,1.0,1.0,0.0,0.0,0.0,5.0,1.0,0.0,0.06,0.06,0.0,0.06,Matches
+Aleks Ławniczak,pl POL,DF,26.0,17,17,1517.0,16.9,1.0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,0.06,0.06,0.12,0.06,0.12,Matches
+Igor Orlikowski,pl POL,DF,19.0,19,15,1310.0,14.6,0.0,1.0,1.0,0.0,0.0,0.0,3.0,1.0,0.0,0.07,0.07,0.0,0.07,Matches
+Jakub Kolan,pl POL,MF,20.0,19,14,1242.0,13.8,1.0,1.0,2.0,1.0,0.0,0.0,2.0,0.0,0.07,0.07,0.14,0.07,0.14,Matches
+Michalis Kosidis,gr GRE,FW,23.0,34,12,1273.0,14.1,6.0,1.0,7.0,3.0,3.0,3.0,3.0,0.0,0.42,0.07,0.49,0.21,0.28,Matches
+Kajetan Szmyt,pl POL,MF,23.0,18,11,1061.0,11.8,1.0,3.0,4.0,1.0,0.0,0.0,0.0,0.0,0.08,0.25,0.34,0.08,0.34,Matches
+Dominik Hładun,pl POL,GK,29.0,11,11,976.0,10.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Leonardo Rocha,pt POR,FW,28.0,11,11,794.0,8.8,7.0,1.0,8.0,6.0,1.0,1.0,1.0,0.0,0.79,0.11,0.91,0.68,0.79,Matches
+Mateusz Grzybek,pl POL,"DF,MF",29.0,14,10,850.0,9.4,3.0,0.0,3.0,3.0,0.0,0.0,3.0,0.0,0.32,0.0,0.32,0.32,0.32,Matches
+Levente Szabo,hu HUN,FW,26.0,16,8,852.0,9.5,3.0,1.0,4.0,3.0,0.0,0.0,2.0,0.0,0.32,0.11,0.42,0.32,0.42,Matches
+Mateusz Dziewiatowski,pl POL,"MF,FW",18.0,15,8,550.0,6.1,1.0,0.0,1.0,1.0,0.0,0.0,3.0,0.0,0.16,0.0,0.16,0.16,0.16,Matches
+Jakub Sypek,pl POL,MF,24.0,30,7,894.0,9.9,3.0,3.0,6.0,3.0,0.0,0.0,5.0,0.0,0.3,0.3,0.6,0.3,0.6,Matches
+Sebastian Kowalczyk,pl POL,MF,26.0,9,5,372.0,4.1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Tomasz Makowski,pl POL,MF,26.0,13,4,512.0,5.7,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.18,0.18,0.0,0.18,Matches
+Jesús Díaz,co COL,MF,26.0,11,4,420.0,4.7,1.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.21,0.43,0.64,0.21,0.64,Matches
+Bartłomiej Kłudka,pl POL,DF,23.0,5,4,372.0,4.1,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.24,0.0,0.24,0.24,0.24,Matches
+Mateusz Wdowiak,pl POL,MF,28.0,11,3,378.0,4.2,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Jakub Ligocki,pl POL,MF,17.0,3,1,92.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Mihael Mlinarić,hr CRO,FW,25.0,4,0,67.0,0.7,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Kamil Nowogoński,pl POL,MF,18.0,3,0,54.0,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Marek Mróz,pl POL,MF,26.0,2,0,43.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Tomasz Pieńko,pl POL,"FW,MF",21.0,1,0,30.0,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Arkadiusz Woźniak,pl POL,"FW,MF",35.0,3,0,17.0,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Cyprian Popielec,pl POL,MF,18.0,1,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Rafał Gikiewicz,pl POL,GK,37.0,0,0,,,,,,,,,,,,,,,,Matches
+Seweryn Marek,pl POL,MF,17.0,0,0,,,,,,,,,,,,,,,,Matches
+Adam Matysek,pl POL,GK,18.0,0,0,,,,,,,,,,,,,,,,Matches
+Kamil Sochan,pl POL,DF,21.0,0,0,,,,,,,,,,,,,,,,Matches
+Maciej Urbański,pl POL,DF,18.0,0,0,,,,,,,,,,,,,,,,Matches
+Squad Total,,,26.8,34,374,3060.0,34.0,43.0,31.0,74.0,38.0,5.0,6.0,68.0,4.0,1.26,0.91,2.18,1.12,2.03,
+Opponent Total,,,26.9,34,374,3060.0,34.0,36.0,18.0,54.0,33.0,3.0,4.0,69.0,2.0,1.06,0.53,1.59,0.97,1.5,

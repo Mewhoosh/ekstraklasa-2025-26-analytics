@@ -1,0 +1,41 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Playing Time,Starts,Starts,Starts,Subs,Subs,Subs,Team Success,Team Success,Team Success,Team Success,Team Success,Team Success,Unnamed: 21_level_0
+Player,Nation,Pos,Age,MP,Min,Mn/MP,Min%,90s,Starts,Mn/Start,Compl,Subs,Mn/Sub,unSub,PPM,onG,onGA,+/-,+/-90,On-Off,Matches
+Bartosz Nowak,pl POL,"FW,MF",31.0,34,3001.0,88.0,98.1,33.3,34,88.0,25,0,,0,1.47,50.0,45.0,5.0,0.15,-1.38,Matches
+Arkadiusz Jędrych,pl POL,DF,33.0,33,2970.0,90.0,97.1,33.0,33,90.0,33,0,,0,1.42,49.0,45.0,4.0,0.12,-1.88,Matches
+Marcin Wasielewski,pl POL,MF,30.0,33,2933.0,89.0,95.8,32.6,33,89.0,29,0,,0,1.42,49.0,45.0,4.0,0.12,-1.29,Matches
+Alan Czerwiński,pl POL,DF,32.0,29,2298.0,79.0,75.1,25.5,28,81.0,14,1,33.0,2,1.38,37.0,38.0,-1.0,-0.04,-0.87,Matches
+Mateusz Kowalczyk,pl POL,MF,21.0,28,2188.0,78.0,71.5,24.3,27,80.0,16,1,33.0,0,1.39,36.0,34.0,2.0,0.08,-0.33,Matches
+Borja Galán,es ESP,MF,32.0,30,2269.0,76.0,74.2,25.2,25,86.0,18,5,25.0,0,1.4,37.0,37.0,0.0,0.0,-0.68,Matches
+Lukas Klemenz,pl POL,DF,29.0,28,2240.0,80.0,73.2,24.9,25,88.0,24,3,16.0,3,1.57,38.0,29.0,9.0,0.36,0.69,Matches
+Rafał Strączek,pl POL,GK,26.0,22,1980.0,90.0,64.7,22.0,22,90.0,22,0,,10,1.64,32.0,21.0,11.0,0.5,0.92,Matches
+Sebastian Milewski,pl POL,MF,27.0,24,1778.0,74.0,58.1,19.8,20,80.0,9,4,46.0,3,1.63,30.0,24.0,6.0,0.3,0.3,Matches
+Adam Zreľák,sk SVK,FW,31.0,22,1290.0,59.0,42.2,14.3,17,67.0,0,5,29.0,0,1.73,22.0,21.0,1.0,0.07,-0.18,Matches
+Ilya Shkurin,by BLR,FW,25.0,27,1264.0,47.0,41.3,14.0,13,72.0,1,14,23.0,0,1.59,26.0,16.0,10.0,0.71,0.91,Matches
+Eman Marković,no NOR,"FW,MF",25.0,25,1124.0,45.0,36.7,12.5,13,68.0,0,12,20.0,2,1.48,25.0,19.0,6.0,0.48,0.48,Matches
+Dawid Kudła,pl POL,GK,33.0,12,1080.0,90.0,35.3,12.0,12,90.0,12,0,,17,1.17,19.0,24.0,-5.0,-0.42,-0.92,Matches
+Erik Jirka,sk SVK,MF,27.0,14,835.0,60.0,27.3,9.3,10,73.0,4,4,27.0,2,2.0,17.0,8.0,9.0,0.97,1.09,Matches
+Mateusz Wdowiak,pl POL,"FW,MF",28.0,16,802.0,50.0,26.2,8.9,10,67.0,0,6,23.0,1,1.81,10.0,7.0,3.0,0.34,0.22,Matches
+Märten Kuusk,ee EST,DF,29.0,15,853.0,57.0,27.9,9.5,9,78.0,7,6,26.0,15,2.0,17.0,10.0,7.0,0.74,0.78,Matches
+Jesse Bosch,nl NED,MF,25.0,11,651.0,59.0,21.3,7.2,8,73.0,4,3,22.0,3,1.36,7.0,8.0,-1.0,-0.14,-0.4,Matches
+Kacper Lukasiak,pl POL,MF,21.0,12,658.0,55.0,21.5,7.3,7,79.0,2,5,21.0,17,1.25,11.0,14.0,-3.0,-0.41,-0.75,Matches
+Adrian Błąd,pl POL,FW,34.0,21,607.0,29.0,19.8,6.7,6,72.0,0,15,12.0,10,1.41,12.0,13.0,-1.0,-0.15,-0.41,Matches
+Marcel Wędrychowski,pl POL,FW,23.0,28,754.0,27.0,24.6,8.4,5,63.0,0,23,19.0,3,1.43,12.0,7.0,5.0,0.6,0.56,Matches
+Damian Rasak,pl POL,MF,29.0,14,647.0,46.0,21.1,7.2,5,85.0,3,9,25.0,1,1.64,13.0,7.0,6.0,0.83,0.83,Matches
+Marius Olsen,no NOR,DF,24.0,4,345.0,86.0,11.3,3.8,4,86.0,2,0,,6,1.0,6.0,6.0,0.0,0.0,-0.2,Matches
+Maciej Rosołek,pl POL,FW,23.0,8,333.0,42.0,10.9,3.7,4,62.0,0,4,21.0,3,0.88,1.0,5.0,-4.0,-1.08,-1.41,Matches
+Grzegorz Rogala,pl POL,DF,29.0,6,287.0,48.0,9.4,3.2,2,90.0,1,4,27.0,16,1.0,1.0,5.0,-4.0,-1.25,-1.58,Matches
+Konrad Gruszkowski,pl POL,MF,24.0,8,156.0,20.0,5.1,1.7,1,71.0,0,7,12.0,11,0.63,1.0,1.0,0.0,0.0,-0.19,Matches
+Aleksander Paluszek,pl POL,DF,24.0,1,90.0,90.0,2.9,1.0,1,90.0,1,0,,6,3.0,3.0,2.0,1.0,1.0,0.85,Matches
+Aleksander Buksa,pl POL,FW,22.0,4,113.0,28.0,3.7,1.3,0,,0,4,28.0,2,0.25,1.0,3.0,-2.0,-1.59,-1.84,Matches
+Jakub Kokosiński,pl POL,FW,18.0,6,60.0,10.0,2.0,0.7,0,,0,6,10.0,12,1.83,1.0,0.0,1.0,1.5,1.35,Matches
+Jakub Łukowski,pl POL,MF,29.0,4,44.0,11.0,1.4,0.5,0,,0,4,11.0,9,0.25,0.0,2.0,-2.0,-4.09,-4.33,Matches
+Filip Rejczyk,pl POL,MF,19.0,2,7.0,4.0,0.2,0.1,0,,0,2,4.0,13,3.0,1.0,0.0,1.0,12.86,12.71,Matches
+Alan Brod,pl POL,MF,20.0,1,3.0,3.0,0.1,0.0,0,,0,1,3.0,2,3.0,0.0,0.0,0.0,0.0,-0.18,Matches
+Bartosz Jaroszek,pl POL,MF,31.0,0,,,,,0,,0,0,,5,,,,,,,Matches
+Lennart Kökelsum,pl POL,GK,23.0,0,,,,,0,,0,0,,5,,,,,,,Matches
+Mateusz Marzec,pl POL,MF,30.0,0,,,,,0,,0,0,,1,,,,,,,Matches
+Wojciech Pańkowski,pl POL,GK,17.0,0,,,,,0,,0,0,,3,,,,,,,Matches
+Milosz Swatowski,pl POL,MF,17.0,0,,,,,0,,0,0,,7,,,,,,,Matches
+Lukasz Trepka,pl POL,DF,18.0,0,,,,,0,,0,0,,4,,,,,,,Matches
+Squad Total,,,29.2,34,3060.0,90.0,100.0,34.0,374,82.0,227,148,21.0,194,1.47,51.0,45.0,6.0,0.18,,
+Opponent Total,,,26.6,34,3060.0,90.0,100.0,34.0,374,82.0,214,157,21.0,202,1.29,45.0,51.0,-6.0,-0.18,,

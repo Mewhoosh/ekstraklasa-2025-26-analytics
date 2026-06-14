@@ -1,0 +1,46 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Playing Time,Starts,Starts,Starts,Subs,Subs,Subs,Team Success,Team Success,Team Success,Team Success,Team Success,Team Success,Unnamed: 21_level_0
+Player,Nation,Pos,Age,MP,Min,Mn/MP,Min%,90s,Starts,Mn/Start,Compl,Subs,Mn/Sub,unSub,PPM,onG,onGA,+/-,+/-90,On-Off,Matches
+Valentin Cojocaru,ro ROU,GK,29,31,2774,89,90.7,30.8,31,89,30,0,,2,1.39,43,45,-2,-0.06,-0.06,Matches
+Fredrik Ulvestad,no NOR,MF,33,32,2717,85,88.8,30.2,30,89,26,2,31,0,1.22,43,45,-2,-0.07,-0.07,Matches
+Kamil Grosicki,pl POL,"FW,MF",37,31,2175,70,71.1,24.2,25,81,8,6,25,0,1.32,30,37,-7,-0.29,-0.80,Matches
+Linus Wahlqvist,se SWE,DF,28,24,2026,84,66.2,22.5,24,84,17,0,,0,1.33,33,35,-2,-0.09,-0.09,Matches
+Dimitrios Keramitsis,gr GRE,DF,21,27,2039,76,66.6,22.7,22,89,20,5,18,5,1.33,29,28,+1,+0.04,+0.31,Matches
+Paul Mukairu,ng NGA,"MF,FW",25,34,2060,61,67.3,22.9,21,85,13,13,22,0,1.32,32,30,+2,+0.09,+0.45,Matches
+Danijel Loncar,hr CRO,DF,28,28,1864,67,60.9,20.7,21,83,13,7,18,1,1.43,32,35,-3,-0.14,-0.22,Matches
+Leonardo Koutris,gr GRE,"DF,MF",30,33,1810,55,59.2,20.1,20,75,6,13,24,0,1.27,31,25,+6,+0.30,+0.87,Matches
+Sam Greenwood,eng ENG,"MF,FW",23,20,1266,63,41.4,14.1,16,73,4,4,26,3,1.30,18,21,-3,-0.21,-0.26,Matches
+Attila Szalai,hu HUN,DF,27,14,1260,90,41.2,14.0,14,90,14,0,,1,1.64,18,14,+4,+0.29,+0.59,Matches
+Marian Huja,pt POR,DF,25,15,1191,79,38.9,13.2,13,89,12,2,17,3,1.13,18,25,-7,-0.53,-0.77,Matches
+Leonardo Borges,br BRA,DF,24,20,1195,60,39.1,13.3,12,79,6,8,31,2,1.20,17,18,-1,-0.08,-0.03,Matches
+José Pozo,es ESP,MF,29,19,981,52,32.1,10.9,12,70,4,7,21,5,1.32,18,18,0,0.00,+0.09,Matches
+Musa Juwara,gm GAM,MF,23,18,1054,59,34.4,11.7,11,80,6,7,25,2,1.22,16,16,0,0.00,+0.09,Matches
+Adrian Przyborek,pl POL,MF,18,17,952,56,31.1,10.6,11,77,4,6,18,0,1.18,16,17,-1,-0.09,-0.05,Matches
+Jan Biegański,pl POL,MF,22,18,880,49,28.8,9.8,10,72,1,8,21,16,1.28,10,12,-2,-0.20,-0.20,Matches
+Kellyn Acosta,us USA,"MF,DF",30,11,785,71,25.7,8.7,10,75,4,1,33,1,1.55,12,9,+3,+0.34,+0.54,Matches
+Mor Ndiaye,sn SEN,MF,24,17,868,51,28.4,9.6,9,84,5,8,14,8,1.53,17,14,+3,+0.31,+0.52,Matches
+Mads Agger,dk DEN,MF,25,12,812,68,26.5,9.0,9,81,2,3,28,0,1.42,12,9,+3,+0.33,+0.53,Matches
+Rajmund Molnár,hu HUN,FW,22,10,738,74,24.1,8.2,9,80,3,1,21,0,1.00,11,14,-3,-0.37,-0.40,Matches
+Karol Angielski,pl POL,FW,29,11,549,50,17.9,6.1,7,62,1,4,29,5,1.45,5,6,-1,-0.16,-0.13,Matches
+Filip Čuić,ba BIH,FW,22,10,651,65,21.3,7.2,6,85,5,4,35,2,1.40,11,8,+3,+0.41,+0.60,Matches
+Natan Lawa,pl POL,"MF,FW",16,10,552,55,18.0,6.1,6,72,0,4,30,6,1.40,9,6,+3,+0.49,+0.67,Matches
+Hussein Ali,iq IRQ,DF,23,16,520,33,17.0,5.8,6,60,1,10,16,6,1.56,8,10,-2,-0.35,-0.35,Matches
+Benjamin Mendy,fr FRA,DF,31,11,375,34,12.3,4.2,4,64,1,7,17,4,1.55,5,8,-3,-0.72,-0.75,Matches
+Kacper Smoliński,pl POL,MF,24,12,371,31,12.1,4.1,4,63,0,8,15,16,1.50,4,6,-2,-0.49,-0.49,Matches
+Efthimis Koulouris,gr GRE,FW,29,4,333,83,10.9,3.7,4,83,3,0,,1,0.75,6,9,-3,-0.81,-0.84,Matches
+Krzysztof Kamiński,pl POL,GK,34,4,285,71,9.3,3.2,3,90,2,1,16,30,1.25,4,3,+1,+0.32,+0.41,Matches
+Kacper Kostorz,pl POL,FW,25,10,205,21,6.7,2.3,2,59,0,8,11,5,1.00,4,6,-2,-0.88,-0.88,Matches
+Jacek Czapliński,pl POL,MF,18,5,105,21,3.4,1.2,1,45,0,4,15,10,1.20,4,2,+2,+1.71,+1.84,Matches
+,,,,,Playing Time,Playing Time,Playing Time,Playing Time,Starts,Starts,Starts,Subs,Subs,Subs,Team Success,Team Success,Team Success,Team Success,Team Success,Team Success,
+Player,Nation,Pos,Age,MP,Min,Mn/MP,Min%,90s,Starts,Mn/Start,Compl,Subs,Mn/Sub,unSub,PPM,onG,onGA,+/-,+/-90,On-Off,Matches
+Patryk Paryzek,pl POL,FW,19,4,99,25,3.2,1.1,1,45,0,3,18,6,0.25,0,3,-3,-2.73,-2.76,Matches
+Jakub Lis,pl POL,DF,23,3,74,25,2.4,0.8,0,,0,3,25,16,0.33,0,1,-1,-1.22,-1.19,Matches
+Maciej Wojciechowski,pl POL,MF,18,3,25,8,0.8,0.3,0,,0,3,8,11,1.00,0,2,-2,-7.20,-7.20,Matches
+Mateusz Bak,pl POL,FW,22,0,,,,,0,,0,0,,3,,,,,,,Matches
+Kuba Bochniarz,pl POL,GK,16,0,,,,,0,,0,0,,1,,,,,,,Matches
+Igor Brzyski,pl POL,MF,18,0,,,,,0,,0,0,,7,,,,,,,Matches
+Rafał Jakubowski,pl POL,DF,18,0,,,,,0,,0,0,,7,,,,,,,Matches
+Alex Peskovic,sk SVK,GK,15,0,,,,,0,,0,0,,2,,,,,,,Matches
+Sebastian Rojek,pl POL,FW,16,0,,,,,0,,0,0,,3,,,,,,,Matches
+Kacper Stanowski,pl POL,FW,17,0,,,,,0,,0,0,,2,,,,,,,Matches
+Squad Total,,,27.3,34,3060,90,100,34.0,374,81,211,160,21,192,1.32,47,49,-2,-0.06,,
+Opponent Total,,,26.8,34,3060,90,100,34.0,374,81,212,162,22,208,1.50,49,47,+2,+0.06,,

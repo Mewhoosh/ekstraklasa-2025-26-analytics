@@ -1,0 +1,36 @@
+Unnamed: 0_level_0,Unnamed: 1_level_0,Unnamed: 2_level_0,Unnamed: 3_level_0,Unnamed: 4_level_0,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Per 90 Minutes,Unnamed: 21_level_0
+Player,Nation,Pos,Age,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,Gls,Ast,G+A,G-PK,G+A-PK,Matches
+Xavier Dziekonski,pl POL,GK,21.0,34,34,3060.0,34.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Tamar Svetlin,si SVN,MF,24.0,33,33,2882.0,32.0,1.0,1.0,2.0,1.0,0.0,0.0,5.0,0.0,0.03,0.03,0.06,0.03,0.06,Matches
+Martin Remacle,be BEL,MF,28.0,33,31,2421.0,26.9,3.0,1.0,4.0,2.0,1.0,1.0,5.0,0.0,0.11,0.04,0.15,0.07,0.11,Matches
+Costas Soteriou,cy CYP,DF,29.0,29,28,2463.0,27.4,5.0,2.0,7.0,5.0,0.0,0.0,2.0,1.0,0.18,0.07,0.26,0.18,0.26,Matches
+Marcel Pięczek,pl POL,"DF,MF",24.0,32,26,2387.0,26.5,4.0,2.0,6.0,4.0,0.0,0.0,0.0,0.0,0.15,0.08,0.23,0.15,0.23,Matches
+Wiktor Długosz,pl POL,"MF,FW",25.0,26,24,2060.0,22.9,3.0,3.0,6.0,3.0,0.0,0.0,5.0,0.0,0.13,0.13,0.26,0.13,0.26,Matches
+Dawid Błanik,pl POL,"FW,MF",28.0,27,24,1878.0,20.9,9.0,4.0,13.0,7.0,2.0,3.0,3.0,0.0,0.43,0.19,0.62,0.34,0.53,Matches
+Pau Resta,es ESP,DF,24.0,24,23,2058.0,22.9,2.0,1.0,3.0,2.0,0.0,0.0,3.0,0.0,0.09,0.04,0.13,0.09,0.13,Matches
+Konrad Matuszewski,pl POL,MF,23.0,27,23,1964.0,21.8,2.0,1.0,3.0,2.0,0.0,0.0,2.0,0.0,0.09,0.05,0.14,0.09,0.14,Matches
+Antonio Cortés,es ESP,"FW,MF",25.0,29,20,1647.0,18.3,3.0,1.0,4.0,3.0,0.0,1.0,1.0,0.0,0.16,0.05,0.22,0.16,0.22,Matches
+Bartlomiej Smolarczyk,pl POL,DF,22.0,19,17,1574.0,17.5,1.0,0.0,1.0,1.0,0.0,0.0,8.0,0.0,0.06,0.0,0.06,0.06,0.06,Matches
+Mariusz Stępiński,pl POL,FW,30.0,15,15,1223.0,13.6,4.0,0.0,4.0,3.0,1.0,1.0,2.0,0.0,0.29,0.0,0.29,0.22,0.22,Matches
+Stjepan Davidović,hr CRO,"FW,MF",20.0,29,12,1294.0,14.4,2.0,1.0,3.0,2.0,0.0,0.0,1.0,0.0,0.14,0.07,0.21,0.14,0.21,Matches
+Nono,es ESP,"FW,MF",34.0,26,12,1006.0,11.2,0.0,2.0,2.0,0.0,0.0,0.0,2.0,1.0,0.0,0.18,0.18,0.0,0.18,Matches
+Slobodan Rubežić,me MNE,DF,25.0,12,11,1035.0,11.5,0.0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.09,0.09,0.0,0.09,Matches
+Hubert Zwozny,pl POL,MF,21.0,19,11,967.0,10.7,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Simon Gustafson,se SWE,MF,30.0,14,6,641.0,7.1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Viktor Popov,bg BUL,"MF,DF",25.0,8,6,485.0,5.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Jakub Budnicki,pl POL,DF,24.0,6,5,380.0,4.2,0.0,0.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,Matches
+Vladimir Nikolov,bg BUL,FW,24.0,25,4,667.0,7.4,0.0,1.0,1.0,0.0,0.0,0.0,6.0,0.0,0.0,0.13,0.13,0.0,0.13,Matches
+Wojciech Kamiński,pl POL,"MF,DF",24.0,10,4,419.0,4.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Nikodem Niski,pl POL,FW,23.0,19,2,408.0,4.5,0.0,2.0,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.44,0.44,0.0,0.44,Matches
+Konrad Ciszek,pl POL,"MF,DF",17.0,5,2,250.0,2.8,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Marcin Cebula,pl POL,MF,29.0,8,1,190.0,2.1,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Milosz Strzebonski,pl POL,MF,21.0,7,0,81.0,0.9,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Mateusz Glowinski,pl POL,FW,19.0,2,0,18.0,0.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Kacper Minuczyc,pl POL,MF,17.0,2,0,11.0,0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Adam Hańćko,pl POL,MF,16.0,1,0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Matches
+Daniel Bak,pl POL,FW,19.0,0,0,,,,,,,,,,,,,,,,Matches
+Rafal Mamla,pl POL,GK,21.0,0,0,,,,,,,,,,,,,,,,Matches
+Michał Mikielewicz,pl POL,GK,16.0,0,0,,,,,,,,,,,,,,,,Matches
+Michał Niedbała,pl POL,GK,19.0,0,0,,,,,,,,,,,,,,,,Matches
+Squad Total,,,25.3,34,374,3060.0,34.0,39.0,23.0,62.0,35.0,4.0,6.0,59.0,3.0,1.15,0.68,1.82,1.03,1.71,
+Opponent Total,,,26.9,34,374,3060.0,34.0,39.0,25.0,64.0,34.0,5.0,6.0,54.0,3.0,1.15,0.74,1.88,1.0,1.74,
