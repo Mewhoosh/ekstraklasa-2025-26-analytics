@@ -7,10 +7,9 @@ venv/
 *.egg-info/
 .ipynb_checkpoints/
 
-# Data (do not commit raw data)
-data/raw/*.csv
-data/processed/*.csv
-data/processed/*.parquet
+# Raw scrape output is heavy and re-derivable from scripts/06 and scripts/09.
+# Processed CSVs are committed so the notebooks and apps are reproducible.
+data/raw/
 
 # Secrets / local
 .env
