@@ -1,4 +1,4 @@
-"""KNN scouting tool - cosine similarity on a per-90 attacking vector."""
+"""KNN scouting tool - cosine similarity on a per-90 vector, role-aware."""
 
 import numpy as np
 import pandas as pd
@@ -24,20 +24,23 @@ SIM_FEATURES = [
 
 st.title("Statistical similarity")
 st.caption(
-    "Cosine similarity on a per-90 vector. Picks the closest stylistic matches "
-    "to a target player across the league. Treat as a curiosity, not a hiring tool."
+    "Cosine similarity on a per-90 vector. Returns the closest stylistic "
+    "matches within the same position group as the target. Treat as a "
+    "curiosity, not a hiring tool - one season is too thin."
 )
 
 pool = players[
-    players["role"].isin(["FWD", "MID"]) & (players["minutes"] >= 900)
+    players["role"].isin(["FWD", "MID", "DEF"]) & (players["minutes"] >= 900)
 ].copy()
 for f in SIM_FEATURES:
     pool[f] = pool[f].fillna(0)
 
+names_sorted = sorted(pool["name"].tolist())
+default_target = "Afimico Pululu" if "Afimico Pululu" in names_sorted else names_sorted[0]
+
 c1, c2 = st.columns([2, 1])
-target = c1.selectbox("Target player", sorted(pool["name"].tolist()),
-                      index=sorted(pool["name"].tolist()).index("Afimico Pululu")
-                      if "Afimico Pululu" in pool["name"].values else 0)
+target = c1.selectbox("Target player", names_sorted,
+                      index=names_sorted.index(default_target))
 top_n = c2.slider("Top N", 5, 20, 10)
 
 c1, c2, c3 = st.columns(3)
@@ -57,7 +60,10 @@ target_mv = target_row["market_value_eur"] or 0
 mv_cap = target_mv * mv_max_pct / 100 if target_mv else None
 target_age = target_row["age"]
 
-candidates = pool[pool["name"] != target].copy()
+candidates = pool[
+    (pool["name"] != target)
+    & (pool["role"] == target_row["role"])
+].copy()
 if exclude_same_team:
     candidates = candidates[candidates["team"] != target_row["team"]]
 if mv_cap is not None:
@@ -68,21 +74,23 @@ candidates = candidates[
 ]
 candidates = candidates.sort_values("similarity", ascending=False).head(top_n)
 
-st.subheader(f"Target: {target}")
+st.subheader(f"Target: {target}  ({target_row['role']})")
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Team", target_row["team"])
 c2.metric("Age", int(target_row["age"]) if pd.notna(target_row["age"]) else "-")
 c3.metric("Minutes", int(target_row["minutes"]))
 c4.metric("MV (EUR)", f"{int(target_mv):,}" if target_mv else "-")
 
-st.subheader(f"Top {len(candidates)} similar (filters applied)")
+st.subheader(f"Top {len(candidates)} similar players in {target_row['role']} pool")
 cols = ["name", "team", "role", "age", "minutes", "market_value_eur",
-        "similarity", "goals_p90", "xg_p90", "xa_p90", "key_passes_p90"]
+        "similarity", "goals_p90", "xg_p90", "xa_p90", "key_passes_p90",
+        "tackles_p90", "interceptions_p90"]
 out = candidates[cols].copy()
 out["minutes"] = out["minutes"].astype(int)
 out["market_value_eur"] = out["market_value_eur"].fillna(0).astype(int)
 out["similarity"] = out["similarity"].round(3)
-for c in ["goals_p90", "xg_p90", "xa_p90", "key_passes_p90"]:
+for c in ["goals_p90", "xg_p90", "xa_p90", "key_passes_p90",
+          "tackles_p90", "interceptions_p90"]:
     out[c] = out[c].round(2)
 out = out.rename(columns={
     "name": "Name", "team": "Team", "role": "Role", "age": "Age",
@@ -90,5 +98,6 @@ out = out.rename(columns={
     "similarity": "Similarity",
     "goals_p90": "G/90", "xg_p90": "xG/90", "xa_p90": "xA/90",
     "key_passes_p90": "KP/90",
+    "tackles_p90": "Tkl/90", "interceptions_p90": "Int/90",
 })
 st.dataframe(out, use_container_width=True, hide_index=True)
