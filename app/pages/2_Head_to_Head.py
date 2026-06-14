@@ -9,7 +9,8 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from utils import (
-    team_match_long, load_matches, color_for, FOCUS_COLORS,
+    team_match_long, load_matches, load_shots, color_for, FOCUS_COLORS,
+    shot_map_figure,
 )
 
 
@@ -138,3 +139,36 @@ fig.update_layout(xaxis_title="Matchweek", yaxis_title="Cumulative points",
                   height=380, hovermode="x unified",
                   margin=dict(l=40, r=20, t=20, b=40))
 st.plotly_chart(fig, use_container_width=True)
+
+st.subheader("Underlying form - rolling 5-match xG and xGA")
+fig = go.Figure()
+for team, sub, color in [(team_a, sub_a, color_a), (team_b, sub_b, color_b)]:
+    s = sub.sort_values("round").copy()
+    s["roll_xg"] = s["xg"].rolling(5, min_periods=1).mean()
+    s["roll_xga"] = s["xga"].rolling(5, min_periods=1).mean()
+    fig.add_trace(go.Scatter(x=s["round"], y=s["roll_xg"], mode="lines",
+                             name=f"{team} xG", line=dict(color=color, width=2.5)))
+    fig.add_trace(go.Scatter(x=s["round"], y=s["roll_xga"], mode="lines",
+                             name=f"{team} xGA",
+                             line=dict(color=color, width=2, dash="dash"),
+                             opacity=0.6))
+fig.update_layout(xaxis_title="Matchweek", yaxis_title="xG / xGA per match",
+                  height=400, hovermode="x unified",
+                  margin=dict(l=40, r=20, t=20, b=40))
+st.plotly_chart(fig, use_container_width=True)
+
+st.subheader("Shot maps")
+shots = load_shots()
+col_a, col_b = st.columns(2)
+with col_a:
+    sa = shots[shots["team"] == team_a]
+    fig = shot_map_figure(sa, color_a, team_a)
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption(f"{len(sa)} shots, {int(sa['is_goal'].sum())} goals, "
+               f"xG {sa['xg'].sum():.1f}")
+with col_b:
+    sb = shots[shots["team"] == team_b]
+    fig = shot_map_figure(sb, color_b, team_b)
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption(f"{len(sb)} shots, {int(sb['is_goal'].sum())} goals, "
+               f"xG {sb['xg'].sum():.1f}")

@@ -9,8 +9,8 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from utils import (
-    load_players, load_shots, color_for, JAGA,
-    shot_map_figure, pizza_figure,
+    load_players, load_shots, load_player_match, load_matches,
+    color_for, JAGA, shot_map_figure, pizza_figure,
 )
 
 
@@ -18,6 +18,8 @@ st.set_page_config(page_title="Player Explorer", layout="wide")
 
 players = load_players()
 shots = load_shots()
+player_match = load_player_match()
+matches = load_matches()
 
 st.title("Player explorer")
 st.caption("Filter the player pool, pick a row, see the pizza and shot map.")
@@ -67,15 +69,20 @@ if filtered.empty:
     st.info("No players match the filters - relax them.")
     st.stop()
 
-sel_player = st.selectbox("Player", filtered["name"].tolist())
+_names = filtered["name"].tolist()
+_default = _names.index("Bartosz Nowak") if "Bartosz Nowak" in _names else 0
+sel_player = st.selectbox("Player", _names, index=_default)
 player_row = filtered[filtered["name"] == sel_player].iloc[0]
 color = color_for(player_row["team"])
 
+def _safe_int(v):
+    return int(v) if pd.notna(v) else 0
+
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Team", player_row["team"])
-c2.metric("Minutes", int(player_row["minutes"]))
-c3.metric("MV (EUR)", f"{int(player_row['market_value_eur'] or 0):,}")
-c4.metric("Goals", int(player_row.get("goals") or 0))
+c2.metric("Minutes", _safe_int(player_row["minutes"]))
+c3.metric("MV (EUR)", f"{_safe_int(player_row['market_value_eur']):,}")
+c4.metric("Goals", _safe_int(player_row.get("goals")))
 
 if player_row["role"] == "GK":
     GK_PIZZA = {
@@ -133,3 +140,67 @@ if not player_shots.empty:
     st.plotly_chart(fig, use_container_width=True)
     st.caption(f"{len(player_shots)} shots, {int(player_shots['is_goal'].sum())} goals, "
                f"xG total {player_shots['xg'].sum():.1f}")
+
+st.subheader("Match by match")
+pm = player_match[player_match["player_id"] == player_row["player_id"]].sort_values("round").copy()
+opp_lookup = matches.set_index("match_id")[["home_team", "away_team"]]
+pm = pm.merge(opp_lookup, on="match_id", how="left")
+pm["opponent"] = np.where(pm["is_home"], pm["away_team"], pm["home_team"])
+pm["venue"] = np.where(pm["is_home"], "H", "A")
+if pm.empty:
+    st.info("No per-match records for this player.")
+else:
+    if player_row["role"] == "GK":
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=pm["round"], y=pm["rating"], mode="lines+markers",
+                                 name="Rating", line=dict(color=color, width=2)))
+        fig.add_trace(go.Bar(x=pm["round"], y=pm["goalsPrevented"],
+                             name="Goals prevented", marker_color=color, opacity=0.3,
+                             yaxis="y2"))
+        fig.update_layout(
+            xaxis_title="Matchweek",
+            yaxis=dict(title="Sofascore rating", range=[5, 10]),
+            yaxis2=dict(title="Goals prevented", overlaying="y", side="right"),
+            height=380, margin=dict(l=40, r=40, t=20, b=40),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        )
+    else:
+        fig = go.Figure()
+        fig.add_trace(go.Bar(x=pm["round"], y=pm["expectedGoals"],
+                             name="xG", marker_color=color, opacity=0.5))
+        fig.add_trace(go.Bar(x=pm["round"], y=pm["expectedAssists"],
+                             name="xA", marker_color="#9aa0a6", opacity=0.5))
+        fig.add_trace(go.Scatter(x=pm["round"], y=pm["rating"], mode="lines+markers",
+                                 name="Rating", line=dict(color="#222", width=2),
+                                 yaxis="y2"))
+        fig.update_layout(
+            xaxis_title="Matchweek",
+            yaxis_title="xG / xA per match",
+            yaxis2=dict(title="Sofascore rating", overlaying="y", side="right",
+                        range=[5, 10]),
+            barmode="group",
+            height=380, margin=dict(l=40, r=40, t=20, b=40),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        )
+    st.plotly_chart(fig, use_container_width=True)
+
+    log_cols = ["round", "venue", "opponent", "minutesPlayed", "rating",
+                "expectedGoals", "expectedAssists", "goals", "totalShots",
+                "keyPass", "ballRecovery"]
+    log_cols = [c for c in log_cols if c in pm.columns]
+    log = pm[log_cols].copy()
+    for c in log.columns:
+        if c in ("round", "minutesPlayed"):
+            log[c] = log[c].fillna(0).astype(int)
+        elif c in ("venue", "opponent"):
+            continue
+        else:
+            log[c] = log[c].round(2)
+    log = log.rename(columns={
+        "round": "Round", "venue": "Venue", "opponent": "Opponent",
+        "minutesPlayed": "Min",
+        "rating": "Rating", "expectedGoals": "xG", "expectedAssists": "xA",
+        "goals": "G", "totalShots": "Sh", "keyPass": "KP",
+        "ballRecovery": "Recov",
+    })
+    st.dataframe(log, use_container_width=True, hide_index=True, height=320)
