@@ -78,11 +78,13 @@ color = color_for(player_row["team"])
 def _safe_int(v):
     return int(v) if pd.notna(v) else 0
 
-c1, c2, c3, c4 = st.columns(4)
+c1, c2, c3, c4, c5 = st.columns(5)
 c1.metric("Team", player_row["team"])
 c2.metric("Minutes", _safe_int(player_row["minutes"]))
 c3.metric("MV (EUR)", f"{_safe_int(player_row['market_value_eur']):,}")
 c4.metric("Goals", _safe_int(player_row.get("goals")))
+_assists_val = player_row.get("assists", player_row.get("goalAssist"))
+c5.metric("Assists", _safe_int(_assists_val))
 
 if player_row["role"] == "GK":
     GK_PIZZA = {
