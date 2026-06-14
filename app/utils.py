@@ -28,6 +28,27 @@ FOCUS_COLORS = {
     "Legia Warszawa": LEGIA,
 }
 
+TEAM_COLORS = {
+    "Jagiellonia Białystok": JAGA,
+    "Lech Poznań": LECH,
+    "Legia Warszawa": LEGIA,
+    "Raków Częstochowa": "#b91c1c",
+    "Pogoń Szczecin": "#0f766e",
+    "KS Lechia Gdańsk": "#16a34a",
+    "Górnik Zabrze": "#7c3aed",
+    "Wisła Płock": "#1e3a8a",
+    "Cracovia": "#dc2626",
+    "Motor Lublin": "#ca8a04",
+    "GKS Katowice": "#facc15",
+    "MKS Korona Kielce": "#ea580c",
+    "Bruk-Bet Termalica Nieciecza": "#15803d",
+    "Widzew Łódź": "#991b1b",
+    "Piast Gliwice": "#0891b2",
+    "MZKS Arka Gdynia": "#fbbf24",
+    "Radomiak Radom": "#10b981",
+    "Zagłębie Lubin": "#b45309",
+}
+
 
 @st.cache_data
 def load_matches() -> pd.DataFrame:
@@ -145,7 +166,45 @@ def xpts_for(xg_for: float, xg_against: float) -> dict:
 
 
 def color_for(team: str) -> str:
-    return FOCUS_COLORS.get(team, "#5a6470")
+    return TEAM_COLORS.get(team, "#5a6470")
+
+
+def standings_at(team_match_df: pd.DataFrame, round_n: int) -> pd.DataFrame:
+    """Standings after round_n with Ekstraklasa tie-breaks:
+    1. Points
+    2. Head-to-head points
+    3. Head-to-head goal difference
+    4. Overall goal difference
+    5. Goals scored
+    """
+    sub = team_match_df[team_match_df["round"] <= round_n].copy()
+    base = sub.groupby("team", as_index=False).agg(
+        pts=("pts", "sum"), gf=("gf", "sum"), ga=("ga", "sum"),
+    )
+    base["gd"] = base["gf"] - base["ga"]
+
+    result_rows = []
+    for pts_val in sorted(base["pts"].unique(), reverse=True):
+        group = base[base["pts"] == pts_val].copy()
+        if len(group) == 1:
+            result_rows.append(group)
+            continue
+        teams = group["team"].tolist()
+        h2h = sub[sub["team"].isin(teams) & sub["opp"].isin(teams)]
+        h2h_pts = h2h.groupby("team")["pts"].sum().reindex(teams, fill_value=0)
+        h2h_gf = h2h.groupby("team")["gf"].sum().reindex(teams, fill_value=0)
+        h2h_ga = h2h.groupby("team")["ga"].sum().reindex(teams, fill_value=0)
+        group["_h2h_pts"] = group["team"].map(h2h_pts)
+        group["_h2h_gd"] = group["team"].map(h2h_gf - h2h_ga)
+        group = group.sort_values(
+            ["_h2h_pts", "_h2h_gd", "gd", "gf"],
+            ascending=[False, False, False, False],
+        )
+        result_rows.append(group.drop(columns=["_h2h_pts", "_h2h_gd"]))
+
+    final = pd.concat(result_rows, ignore_index=True)
+    final["pos"] = final.index + 1
+    return final
 
 
 def add_pitch_shapes(fig: go.Figure) -> go.Figure:
@@ -173,7 +232,7 @@ def add_pitch_shapes(fig: go.Figure) -> go.Figure:
 def shot_map_figure(shots_df: pd.DataFrame, color: str, title: str = "") -> go.Figure:
     """Vertical half-pitch shot map. Shots near opp goal land at top of plot."""
     fig = go.Figure()
-    s = shots_df.copy()
+    s = shots_df.dropna(subset=["x", "y", "xg"]).copy()
     s["pitch_x"] = s["y"] * 0.68
     s["pitch_y"] = (50 - s["x"]) * 1.05
     goals = s[s["is_goal"]]
@@ -214,16 +273,22 @@ def pizza_figure(player_row: pd.Series, pool_df: pd.DataFrame,
     fig.add_trace(go.Barpolar(
         r=pcts, theta=labels, marker_color=color,
         marker_line_color="white", marker_line_width=2,
-        opacity=0.85, text=[f"{p:.0f}" for p in pcts],
-        textposition="outside",
+        opacity=0.85, hovertext=[f"{p:.0f}" for p in pcts], hoverinfo="text+theta",
+    ))
+    fig.add_trace(go.Scatterpolar(
+        r=[110] * len(labels), theta=labels, mode="text",
+        text=[f"{p:.0f}" for p in pcts],
+        textfont=dict(size=12, color=color),
+        showlegend=False, hoverinfo="skip",
     ))
     fig.update_layout(
         title=title,
         polar=dict(
-            radialaxis=dict(range=[0, 100], showticklabels=False, ticks=""),
+            radialaxis=dict(range=[0, 115], showticklabels=False, ticks=""),
             angularaxis=dict(direction="clockwise", rotation=90),
         ),
-        height=500,
+        height=520,
         margin=dict(l=40, r=40, t=60, b=40),
+        showlegend=False,
     )
     return fig
