@@ -1,5 +1,13 @@
 # Ekstraklasa 2025/26 Analytics
 
+[![Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)](https://ekstraklasa-2025-26-analytics.streamlit.app/)
+[![Notebook 01](https://img.shields.io/badge/Sub--README-Notebook%2001-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/01_three_clubs_analysis.md)
+[![Notebook 02](https://img.shields.io/badge/Sub--README-Notebook%2002-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/02_team_analytics.md)
+[![Notebook 03](https://img.shields.io/badge/Sub--README-Notebook%2003-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/03_player_analytics.md)
+[![Colab 01](https://img.shields.io/badge/Colab-Notebook%2001-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1WkE71OOVvHdRSHehyfqPhypmKhN91K0A?usp=sharing)
+[![Colab 02](https://img.shields.io/badge/Colab-Notebook%2002-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1QopjjtC60sVqMAck_5bsQ24gi-VGF7g7?usp=sharing)
+[![Colab 03](https://img.shields.io/badge/Colab-Notebook%2003-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1KGek1qdDoax2bLRj304S-fehQ5f11iN6?usp=sharing)
+
 End-to-end analytics on the Polish top flight 2025/26 season. Multi-source scraping behind two anti-bot stacks, xG-based modelling, team-style clustering, season-long form trajectories, per-player percentile analysis and a multi-page Streamlit app on top of everything.
 
 | Layer | Tech |
@@ -12,7 +20,7 @@ End-to-end analytics on the Polish top flight 2025/26 season. Multi-source scrap
 
 ## Streamlit app
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ekstraklasa-2025-26-analytics.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)](https://ekstraklasa-2025-26-analytics.streamlit.app/)
 
 The main artifact. Five pages plus a rich home overview. Reads directly from `data/processed/`.
 
@@ -50,33 +58,30 @@ Three Jupyter notebooks. Each has a companion sub-README with the full chart gal
 
 ### 01 - Three Clubs Analysis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WkE71OOVvHdRSHehyfqPhypmKhN91K0A?usp=sharing)
+[![Sub-README](https://img.shields.io/badge/Sub--README-Notebook%2001-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/01_three_clubs_analysis.md)
+[![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1WkE71OOVvHdRSHehyfqPhypmKhN91K0A?usp=sharing)
 
 Comparative analysis of Lech, Jaga and Legia on FBref counting stats. Season trajectory, form, splits, head-to-head, key players, goalkeeper rotation story. **Limited scope** - this notebook predates the Sofascore scrape and runs on counting stats only. Notebooks 02 and 03 are the xG-enabled versions.
 
 **notebook_01_hero.png**
 
-[Full sub-README](notebooks/01_three_clubs_analysis.md)
-
 ### 02 - Team Analytics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QopjjtC60sVqMAck_5bsQ24gi-VGF7g7?usp=sharing)
+[![Sub-README](https://img.shields.io/badge/Sub--README-Notebook%2002-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/02_team_analytics.md)
+[![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1QopjjtC60sVqMAck_5bsQ24gi-VGF7g7?usp=sharing)
 
 League-wide xG analytics on Sofascore data. KMeans archetypes, tactical radar, Poisson xPts, decomposition into finishing and defending, goal sources, shot maps, rolling form, bump charts.
 
 **notebook_02_hero.png**
 
-[Full sub-README](notebooks/02_team_analytics.md)
-
 ### 03 - Player Analytics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KGek1qdDoax2bLRj304S-fehQ5f11iN6?usp=sharing)
+[![Sub-README](https://img.shields.io/badge/Sub--README-Notebook%2003-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/03_player_analytics.md)
+[![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1KGek1qdDoax2bLRj304S-fehQ5f11iN6?usp=sharing)
 
 Per-player demographics, percentile pizzas, shot maps and statistical similarity.
 
 **notebook_03_hero.png**
-
-[Full sub-README](notebooks/03_player_analytics.md)
 
 ## Power BI dashboard
 
@@ -126,3 +131,13 @@ Five concrete problems along the way:
 Final scrape: 306 finished matches, five JSON files each (event, shotmap, statistics, lineups, incidents), persisted under `data/raw/sofascore/event_{id}/`.
 
 Code: `scripts/08_sofascore_discover.py` (probe), `scripts/09_scrape_sofascore.py` (full scrape, resumable), `scripts/10_clean_sofascore.py` (JSON to CSV), `scripts/11_build_player_master.py` (season aggregates).
+
+---
+
+[![Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)](https://ekstraklasa-2025-26-analytics.streamlit.app/)
+[![Notebook 01](https://img.shields.io/badge/Sub--README-Notebook%2001-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/01_three_clubs_analysis.md)
+[![Notebook 02](https://img.shields.io/badge/Sub--README-Notebook%2002-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/02_team_analytics.md)
+[![Notebook 03](https://img.shields.io/badge/Sub--README-Notebook%2003-1f6feb?style=for-the-badge&logo=markdown&logoColor=white)](notebooks/03_player_analytics.md)
+[![Colab 01](https://img.shields.io/badge/Colab-Notebook%2001-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1WkE71OOVvHdRSHehyfqPhypmKhN91K0A?usp=sharing)
+[![Colab 02](https://img.shields.io/badge/Colab-Notebook%2002-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1QopjjtC60sVqMAck_5bsQ24gi-VGF7g7?usp=sharing)
+[![Colab 03](https://img.shields.io/badge/Colab-Notebook%2003-F9AB00?logo=googlecolab&logoColor=white&style=for-the-badge)](https://colab.research.google.com/drive/1KGek1qdDoax2bLRj304S-fehQ5f11iN6?usp=sharing)
