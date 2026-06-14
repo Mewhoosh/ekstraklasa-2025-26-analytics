@@ -4,12 +4,6 @@
 
 League-wide team analytics on Sofascore xG and per-match metrics across all 18 Ekstraklasa clubs. Companion to notebook 01, which ran on FBref counting stats.
 
-Three questions:
-
-1. Which clubs over- or under-performed their underlying numbers?
-2. Where does that gap come from - finishing, goalkeeping, or draw luck?
-3. How do the 18 clubs cluster by playing style?
-
 ## Contents
 
 1. Setup and load
@@ -29,7 +23,8 @@ Three questions:
 
 KMeans on 6 style features (xG, xGA, possession, xG per shot, recoveries, pass accuracy). 4 archetypes. PCA 2D map.
 
-**02_style_clusters.png**
+<img width="1301" height="814" alt="obraz" src="https://github.com/user-attachments/assets/4ba23ea9-e7ee-4bb0-901a-e4b10653f0ff" />
+
 
 Cluster labels:
 
@@ -42,13 +37,15 @@ Cluster labels:
 
 Six Sofascore metrics for Jaga, Lech and Legia min-max normalised against the league. Defence stored as 1/xGA so higher means better on every axis.
 
-**03_radar.png**
+<img width="972" height="819" alt="obraz" src="https://github.com/user-attachments/assets/a80d272e-a7a0-4644-b5f7-c8e4a2e6f982" />
+
 
 ## 4. xPts - actual vs expected points
 
 Per-match expected points via independent Poisson with xG as the rate. Outer product over goal counts gives P(W/D/L), weighted 3/1/0 and summed across the season.
 
-**04_xpts.png**
+<img width="1746" height="790" alt="obraz" src="https://github.com/user-attachments/assets/a32ca2f5-c881-4f64-b349-ed24b026ef12" />
+
 
 Jagiellonia's actual minus expected points came out at +11.7 - the largest over-performance in the league.
 
@@ -56,23 +53,26 @@ Jagiellonia's actual minus expected points came out at +11.7 - the largest over-
 
 Per matchweek cumulative actual points vs xPts for the three focus clubs. Filled bands show the running gap.
 
-**05_xpts_trajectory.png**
+<img width="1746" height="566" alt="obraz" src="https://github.com/user-attachments/assets/96b3e757-48b6-4ac4-a1a5-5ca272e7d0a6" />
+
 
 ## 6. Over- and under-performance breakdown
 
 Standings sorted by actual points with expected position and the gap decomposed into finishing (GF vs xG) and defending (GA vs xGA). Plus goalkeeper over- and under-performance (Sofascore goals prevented).
 
-**06_xpts_table.png** (HTML styled table - screenshot to embed)
+<img width="902" height="584" alt="obraz" src="https://github.com/user-attachments/assets/33bc3890-dc16-45b1-8669-a2aab749fd07" />
 
-**06_goalkeeper.png**
+<img width="1089" height="703" alt="obraz" src="https://github.com/user-attachments/assets/42ffdc97-7ea2-4506-a512-bee144cb9f0b" />
 
-Jaga's goalkeeper Abramowicz contributed +3.8 goals prevented. Lechia's GK posted -12.7 - catastrophic. Korona +10.0 was the biggest GK over-performance in the league.
+
+Jaga's goalkeeper Abramowicz contributed +3.8 goals prevented. Lechia's GK posted -12.7 - catastrophic. Pogoń +7.5 was the biggest GK over-performance in the league.
 
 ## 7. Goal sources - open play vs set-piece
 
 Share of season xG by situation per team. Sorted by set-piece dependency.
 
-**07_goal_sources.png**
+<img width="1308" height="821" alt="obraz" src="https://github.com/user-attachments/assets/33d184ce-a35a-4ffd-9723-288c0a63827a" />
+
 
 Set-piece-heavy: Zagłębie (40%) and GKS Katowice (38%). Set-piece-light: Lech (17%) and Jaga (20%).
 
@@ -80,13 +80,14 @@ Set-piece-heavy: Zagłębie (40%) and GKS Katowice (38%). Set-piece-light: Lech 
 
 Vertical half-pitch view for Lech, Jaga, Legia, Lechia. Each circle is one shot, size scaled by xG, filled circles are goals.
 
-**08_shot_maps.png**
+<img width="1968" height="570" alt="obraz" src="https://github.com/user-attachments/assets/22d5af3d-f56a-4a6e-b8a3-53fae370e470" />
+
 
 ## 9. Underlying form - rolling xG and xGA
 
 5-match rolling xG created and xGA conceded for the three focus clubs.
 
-**09_rolling_xg.png**
+<img width="1746" height="566" alt="obraz" src="https://github.com/user-attachments/assets/ec6d7d77-a9fc-4ab3-b212-3710c51550db" />
 
 Jaga's xGA sat above xG for most of the season - underlying form was poor despite the third-place finish.
 
@@ -94,9 +95,11 @@ Jaga's xGA sat above xG for most of the season - underlying form was poor despit
 
 League position by matchweek for the focus clubs. Relegation zone and European spots shaded. Two views - title race and mid-table battle.
 
-**10_bump_chart.png**
+<img width="1418" height="758" alt="obraz" src="https://github.com/user-attachments/assets/ee11e172-8d4d-48c0-b890-699661b51703" />
 
-**10b_bump_chart_bottom.png**
+<img width="1418" height="758" alt="obraz" src="https://github.com/user-attachments/assets/3a3f6f8e-dea6-4983-87d0-c0149fc4c3c7" />
+
+<img width="1418" height="758" alt="obraz" src="https://github.com/user-attachments/assets/9303cbe8-7d31-42ce-b9a3-e757fd4036b3" />
 
 Legia spent multiple matchweeks in the relegation zone before climbing back to mid-table by the end of the season. Exact matchweeks depend on the tie-break used (we apply Ekstraklasa's head-to-head rule).
 
